@@ -9,11 +9,10 @@ a:
     COPYTO   0
 b:
     JUMPZ    c
-    BUMPDN   0
     COPYFROM 1
     ADD      2
     COPYTO   2
-    COPYFROM 0
+    BUMPDN   0
     JUMP     b
 c:
     COPYFROM 2
